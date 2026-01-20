@@ -23,5 +23,5 @@ Algorithms: 1.Generalised mathematical expression:
               >input 2 integers using int(input()), a and b.
               >if a>b print "a is larger", else (i.e a<b) print "b is larger".
               >Output.
-Conclusion: Successfully executed all the codes, explored the different ways to use print function, check type, generalize code using input, performing basic mathematical operations, importing library,
-            and basic working of the if-else operator.
+Conclusion: Successfully executed all the codes, explored the different ways to use print function, check type, generalize code using input,
+            performing basic mathematical operations, importing library, and basic working of the if-else operator.
