@@ -1,4 +1,4 @@
-Practical 1: 
+Practical 1:
 Aim: Using basic needs like print function, input operator, mathematical operations, importing math library, checking the type and using basic if-else statement.
 Functions Used: print(),print(type()), sep="\n", type(), int(input()), float(input()), +, -, *, /, **, import math, math.pi, math.log, if-else.
 Theory: 1.Using print() to print any given string(""), integer(1,2,3...), float(1.23,2.567,3.9,...), booleans(True, False) inside.
