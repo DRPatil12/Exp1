@@ -1,35 +1,152 @@
-Practical 1:
+ 📘 Introduction to Python – Notebook Journal
+
+**Experiment Title:** Introduction to Python  
+**Author:** Dhruv Patil
+**PRN:** 25070123146  
+
+---
+
+## 🎯 Aim
+To study the **basic concepts of Python programming**, including variables, data types, input/output operations, arithmetic operations, mathematical functions, and conditional statements.
+
+---
+
+## 📖 Theory
+Python is a **high-level, interpreted, and dynamically typed programming language** known for its simplicity and readability.
+
+Key concepts covered in this experiment:
+- Variable declaration and assignment
+- Printing output using `print()`
+- Data types and type checking using `type()`
+- Arithmetic operations
+- User input using `input()`
+- Mathematical operations using the `math` module
+- Conditional statements using `if–else`
+
+Python is widely used in data science, web development, automation, and artificial intelligence due to its rich libraries and ease of use.
+
+---
+
+## 🧠 Algorithm (Cell-wise)
+
+### Cell 1 – Student Details
+1. Display student name and PRN using markdown.
+
+---
+
+### Cell 2 – Experiment Title
+1. Display the title: *Introduction to Python*.
+
+---
+
+### Cell 3 – Variable Assignment and Printing
+**Algorithm**
+1. Assign multiple values to multiple variables in a single statement.
+2. Print all variables together.
+3. Print a single variable.
+
+**Output**
+orange apple banana
+orange
+
+---
+
+### Cell 4 – Data Types
+**Algorithm**
+1. Assign integer, float, string, and boolean values to variables.
+2. Use `type()` to display the data type of each variable.
+
+**Output**
+<class 'int'>
+<class 'float'>
+<class 'str'>
 
 
-#Aim: Using basic needs like print function, input operator, mathematical operations, importing math library, checking the type and using basic if-else statement.
+---
 
-Functions Used: print(),print(type()), sep="\n", type(), int(input()), float(input()), +, -, *, /, **, import math, math.pi, math.log, if-else.
+### Cell 5 – Arithmetic Operations
+**Algorithm**
+1. Assign values to two variables.
+2. Perform addition, subtraction, and multiplication.
+3. Display results using `print()`.
 
-Theory: 1.Using print() to print any given string(""), integer(1,2,3...), float(1.23,2.567,3.9,...), booleans(True, False).
-        2.Using sep="\n" in the print() to print every given string/ integer/ float/ booleans in a new line.
-        3.Using type() to check the type of term used, print(type()) to print the type.
-        4.Using mathematical operators like +,-,*,/,** inside print functions (ex: x=3, y=2 print(x+y), output: 5)
-        5.Importing math library to perform special mathematical terms like pi, log, sqrt etc.
-        6.Using if-else conditional function to print the true statement according to the condition.
+**Output**
+add = 15
+subt = 5
+mult = 50
 
-        Note: Terms like integers, floats, strings, boolens etc can be stored in a variable (ex: w=True).
-        
-Algorithms: 1.Generalised mathematical expression:
-              >input 2 integers using int(input()), a and b.
-              >show math.operations in output using print(a+b), print(a-b) etc.
-              >Output.
-              
-            2.Area of circle:
-              >input a float using float(input()) for the radius of the circle, r.
-              >Import math library using import math.
-              >Call the math library to use pi while calculating the arra of the circle, import.pi.
-              >print area.
-              >Output.
-              
-            3.General way to find larger between 2 integers:
-              >input 2 integers using int(input()), a and b.
-              >if a>b print "a is larger", else (i.e a<b) print "b is larger".
-              >Output.
-              
-Conclusion: Successfully executed all the codes, explored the different ways to use print function, check type, generalize code using input,
-            performing basic mathematical operations, importing library, and basic working of the if-else operator.
+---
+
+### Cell 6 – User Input and Addition
+**Algorithm**
+1. Accept two integer values from the user.
+2. Add the values.
+3. Display the result.
+
+**Output (example)**
+Enter Value of X: 5
+Enter Value of Y: 6
+sum = 11
+
+---
+
+### Cell 7 – Area of a Circle (Basic Formula)
+**Algorithm**
+1. Accept radius as user input.
+2. Calculate area using formula:  
+   `area = 3.14 × r²`
+3. Display the area.
+
+**Output (example)**
+Enter Radius: 7
+153.86
+
+---
+
+### Cell 8 – Mathematical Functions Using `math` Module
+**Algorithm**
+1. Import the `math` module.
+2. Accept radius as input.
+3. Use:
+   - `math.log10()`
+   - `math.pi`
+4. Perform and display calculations.
+
+**Output (example)**
+Enter Radius: 10
+2.302585092994046
+31.41592653589793
+
+---
+
+### Cell 9 – Logarithmic Functions
+**Algorithm**
+1. Import the `math` module.
+2. Calculate natural logarithm using `math.log()`.
+3. Calculate base-10 logarithm using `math.log10()`.
+
+**Output**
+0.9162907318741551
+2.0
+
+
+---
+
+### Cell 10 – Conditional Statement (if–else)
+**Algorithm**
+1. Assign values to two variables.
+2. Compare values using an `if–else` condition.
+3. Display appropriate output based on condition.
+
+**Output**
+b is greater than a
+
+---
+
+## ✅ Conclusion
+This experiment introduced the **fundamental concepts of Python programming**, including:
+- Variable declaration and data types
+- Input and output handling
+- Arithmetic and mathematical operations
+- Use of built-in and library functions
+- Conditional logic using `if–else`
